@@ -2,4 +2,5 @@
 <h1>{{head}}</h1>
 <img [src]="imgUrl" width="500px" alt="" (click)="showSite()">
 <h1>Hello {{userName}} from BridgeLabz</h1>
-<input type="text" [(ngModel)]=userName>
+<input (input)="onInput($event)" type="text" [(ngModel)]=userName>
+<h3>{{nameError}}</h3>
