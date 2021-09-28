@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'welcome to hello World app';
+  head='Hello from BridgeLabz';
 }
